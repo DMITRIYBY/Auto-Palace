@@ -1,0 +1,76 @@
+.card{
+    position: relative;
+    width: 350px;
+    height: 440px;
+    
+    background-color: #272627;
+    border-radius: 20px;
+}
+.buttons{
+    position: absolute;
+    color: white;
+    background-color: #EB6041;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 35px;
+    width: 50%;
+    font-size: 24px;
+    margin-left: 25%;
+    border-radius: 10px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    bottom: 5%;
+}
+img{
+    position: absolute;
+    max-width: 350px;
+    border-radius: 20px;
+}
+.mark{
+    left: 20%;
+    top: 50%;
+    position: absolute;
+    font-size: 24px;
+}
+.cardPrice, .year{
+    position: absolute;
+    left: 20%;
+    font-size: 18px;
+}
+.card > button{
+    width: 10px;
+    height: 10px;
+    z-index: 100;
+    color: #272627;
+}
+.cardPrice{
+    top: 60%;
+}
+.year{
+    top: 70%;
+}
+.cardPrice > span{
+    color: #EB6041;
+}
+.buttons:hover{
+    position: absolute;
+    cursor: pointer;
+    color: blanchedalmond;
+    background-color: #8f3925;
+}
+
+.card:hover{
+    
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .8);
+}
+
+
+
+
+
+
+

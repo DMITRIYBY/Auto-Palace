@@ -1,0 +1,31 @@
+.top6{
+    margin-top: 100px;
+    color: aliceblue;
+    margin-left: 10%;
+    font-size: 28px;
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.advantages{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;   
+    display: inline-block;
+}
+.adv{
+    margin-bottom: 50px;
+    margin-right: 20%;
+    display: inline-block;
+    
+}
+.cube{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    font-size: 96px;
+    background: #EB6041;
+    max-width: 56px;
+    color: aliceblue;
+    font-weight: 200;
+    padding: 10px 20px 10px 20px;
+}

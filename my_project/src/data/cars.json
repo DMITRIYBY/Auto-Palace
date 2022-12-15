@@ -1,0 +1,44 @@
+[
+    {
+        "cathegory" : "crossover",
+        "mark" : "BMW X5",
+        "year" : 2016,
+        "price" : 47500,
+        "image" : "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP478/8feb2b192c38406a97effdf3772bfb0c_ful.jpg"
+    },
+    {
+        "cathegory" : "crossover",
+        "mark" : "Infinity QX80",
+        "year" : 2022,
+        "price" : 2800000,
+        "image" : "https://www.cnet.com/a/img/resize/dfb9ac3b3feac99d887026a62f46aa713cfd5cf7/hub/2021/01/15/3aa7b9a6-8916-4ad7-9d5d-727172adf3e4/qx80-promo.jpg?auto=webp&width=768"
+    },
+    {
+        "cathegory" : "crossover",
+        "mark" : "TOYOTA CAMRY",
+        "year" : 2018,
+        "price" : 24000,
+        "image" : "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP459/cc61d0659bbe401fac3ea51aeef9d347_ful.jpg"
+    },
+    {
+        "cathegory" : "sedan",
+        "mark" : "HONDA ACCORD EX",
+        "year" : 2018,
+        "price" : 48000,
+        "image" : "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP487/6f60a06942254b61abdb1e048dd72583_ful.jpg"
+    },
+    {
+        "cathegory" : "crossover",
+        "mark" : "HONDA CIVIC EX",
+        "year" : 2018,
+        "price" : 35000,
+        "image" : "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP451/eaccbca55af549da9bf8b952a9ce674c_ful.jpg"
+    },
+    {
+        "cathegory" : "sedan",
+        "mark" : "Mercedes GLC",
+        "year" : 2016,
+        "price" : 72500,
+        "image" : "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP479/f2056e6f83414e72b339045f6aecfd85_ful.jpg"
+    }
+]

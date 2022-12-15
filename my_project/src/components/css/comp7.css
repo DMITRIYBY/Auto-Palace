@@ -1,0 +1,54 @@
+.comp7{
+    height: 500px;
+}
+.flow{
+    display: block;
+    z-index: 1;
+    margin-left: 10%;
+    max-width: 80%;
+}
+.flow> .top6{
+    margin: 100px 0 0 0;
+}
+
+.auctions{
+    max-width: 80%;
+    margin-top: 100px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: baseline;
+}
+.aucts{
+    margin: 0 0 0 0;
+}
+.aucts > img{
+    margin: 0 0 0 0;
+    /* width: 80/3%; */
+    height: 200px;
+}
+@media (max-width: 850px) {
+    .auctions{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .aucts > img{
+        height: 110px;
+    }
+}
+@media (max-width: 520px){
+    .comp7{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .auctions{
+        flex-wrap: wrap;
+    }
+    .aucts > img{
+        margin: 0 0 0 0;
+        height: 200px;
+    }
+}

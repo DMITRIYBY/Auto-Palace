@@ -1,0 +1,51 @@
+.container4{
+    position: relative;
+    height: 350px;
+    margin-top: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.answers, .answer-text{
+    display: inline-block;
+    left: 10%;
+    width: 40%;
+    position: absolute;
+    display: block;
+}
+.answer-text{
+    top: 70px;
+    font-style: italic;
+    font-size: 28px;
+}
+.answer-text > span{
+    color: #EB6041;
+}
+.dodge{
+    right: 10%;
+    display: inline-block;
+    position: absolute;
+    max-width: 40%;
+    z-index: 5;
+    animation-name: dooger;
+    animation-duration: 2s;
+}
+@keyframes dooger{
+    from{
+        right: -40%;
+    }
+    to{
+        right: 10%;
+    }
+}
+@media (max-width: 700px) {
+   .dodge{
+    display: none;
+   }
+   .answers, .answer-text{
+    
+    left: 10%;
+    width: 80%;
+    }
+}

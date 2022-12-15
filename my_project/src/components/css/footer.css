@@ -1,0 +1,63 @@
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    display: inline;
+}
+.footLine, .footLine2{
+    width: 40%;
+    border: 1px solid #EB6041;
+}
+.footLine{
+    margin: 0 0 0 0;
+}
+.footLine2{
+    margin: 0 0 0 61%;
+}
+.Pfooter{
+    margin: 0 0 0 44%;
+    text-align: center;
+    width: 12%;
+}
+.footInfo{
+    width: 60%;
+    margin-left: 20%;
+}
+.footInfo{
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.jobTime, .callNumber > .h3{
+    margin: 0 0 0 0;
+    font-weight: 300;
+    font-size: 32px;
+}
+.callNumber, .jobTime > .h3{
+    margin: 0 0 0 0;
+    font-weight: 300;
+    font-size: 32px;
+    opacity: 100%;
+}
+.callNumber, .jobTime > p{
+    font-size: 24px;
+    opacity: 70%;
+}
+@media (max-width: 1024px) {
+    .footLine, .footLine2{
+        width: 100%;
+        margin: 0 0 0 0;
+        border: 1px solid #EB6041;
+    }
+}
+@media (max-width: 600px) {
+    h3, .jobTime > .h3, .callNumber > .h3{
+        justify-content: center;
+        margin: 10px 0 10px 0;
+        font-size: 24px;
+    }
+    .footInfo, .jobTime,.callNumber{
+    margin-left: 20%;
+    width: 80%;
+    margin-top: 50px;
+    }
+}

@@ -1,0 +1,51 @@
+.top-view{
+        width: 100%;
+        height: 300px;
+        background-position-x: 90%;
+        background-position-y: 40%;
+        background-size: 100%;
+}
+.ourSoc{
+        width: 100%;
+        text-align: center;
+}
+.socials{
+        margin-top: 50px;
+        width: 80%;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: baseline;
+}
+.net{
+        display: flex;
+        max-height: 100px;
+}
+.net > a > img{
+        margin: 0 0 0 0;
+        height: 70px;
+}
+.container-1{
+        margin-top: 150px;
+}
+.contact{
+        margin-bottom: 100px;
+}
+
+@media (max-width: 500px){
+        .top-view{
+                background-position-x: 50%;
+                background-position-y: 40%;
+                background-size: 150%;
+        }
+        .net{
+                flex-direction: column;
+                flex-wrap: wrap;
+        }
+        .net > a > img{
+                margin: 0 0 0 0;
+                height: 100px;
+        }
+}

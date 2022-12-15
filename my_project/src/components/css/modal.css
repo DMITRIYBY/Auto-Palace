@@ -1,0 +1,118 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    animation-name: appear;
+    color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    animation-duration: 300ms;
+  }
+  
+  .modal-dialog {
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    max-width: 550px;
+    background: #272627;
+    position: relative;
+    margin: 0 20px;
+    max-height: calc(100vh - 40px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slide-in;
+    animation-duration: 0.5s;
+  }
+  
+  .modal-header, .modal-footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #272627;
+    
+    justify-content: space-between;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #272627;
+    justify-content: flex-end;
+  }
+  
+  .modal-close {
+    cursor: pointer;
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+  }  
+input{
+    color: aliceblue;
+    background: #3E4143;
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.your_dreams > textarea{
+  color: aliceblue;
+    background: #3E4143;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5%;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.name_city{
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.name_city > input{
+    width: 30%;
+}
+.email_price{
+  display: flex;
+  margin-left: 5%;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.email_price> input{
+  width: 30%;
+}
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateY(-150px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }

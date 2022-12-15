@@ -1,0 +1,11 @@
+.goods_field{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.goods_field > *{
+    margin-top: 50px;
+}
